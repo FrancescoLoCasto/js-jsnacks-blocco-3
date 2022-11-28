@@ -3,3 +3,7 @@
 let numsList = [];
 
 let tot = 0;
+
+while (tot < 50) {
+   
+}
