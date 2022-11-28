@@ -3,6 +3,7 @@
    let numbersOneOfTen= parseInt(prompt("Prova ad inserire un numero che va da 1 a 10"));
 
    while (numbersOneOfTen< 1 || numbersOneOfTen> 10){
-   numbersOneOfTen= parseInt(prompt("Prova ad inserire un numero che va da 1 a 10"));
-   console.log(userNumber);
+      numbersOneOfTen= parseInt(prompt("Prova ad inserire un numero che va da 1 a 10"));
    }
+   
+   console.log(numbersOneOfTen);
