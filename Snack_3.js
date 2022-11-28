@@ -12,5 +12,10 @@ while (numsListOne.length !== numsListTwo.length) {
    if (numsListOne.length > numsListTwo.length) {
 
       numsListTwo.push(numsUser)
+    }else {
+      numsListOne.push(numsUser)
     }
 }
+
+console.log(numsListOne)
+console.log(numsListTwo)
