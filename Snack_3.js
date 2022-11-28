@@ -7,5 +7,10 @@ const numsListTwo = [34,345,2889,765,6776,53,345,,123,65]
 
 while (numsListOne.length !== numsListTwo.length) {
 
-   
+   let numsUser = parseInt(prompt("Inserisci il tuo numero!"))
+
+   if (numsListOne.length > numsListTwo.length) {
+
+      numsListTwo.push(numsUser)
+    }
 }
