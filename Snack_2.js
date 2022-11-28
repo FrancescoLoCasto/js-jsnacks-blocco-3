@@ -8,4 +8,10 @@ while (tot < 50) {
    let promptNums = parseInt(prompt("Digita un numero inferiore di 50!"))
    tot += promptNums
    numsList.push(promptNums)
+
+
+   if (tot > 50){
+      console.log('Numero troppo grande!');
+    }
 }
+
