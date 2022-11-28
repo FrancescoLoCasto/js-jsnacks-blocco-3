@@ -6,5 +6,12 @@ let letterList = ["a","b","c","d","e","f","g","h","i"]
 
 let allList = []
 
-   for (let i = 0; i < letterList.length; i++) {      
+   for (let i = 0; i < letterList.length; i++) { 
+      allList.push(listNums[i], letterList[i])     
    }
+
+   console.log(letterList)
+
+   console.log(listNums)
+
+   console.log(allList)
