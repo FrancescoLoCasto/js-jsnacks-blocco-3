@@ -15,3 +15,6 @@ while (tot < 50) {
     }
 }
 
+console.log(tot);
+console.log(numsList);
+
