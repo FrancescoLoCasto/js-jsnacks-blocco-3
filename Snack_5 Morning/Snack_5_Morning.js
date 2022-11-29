@@ -3,7 +3,13 @@
  */
 
  function randomNumberLimit (limitMin, limitMax) {
-   const casualNumbers = Math.floor(Math.random() * (limitMax - limitMin) + limitMin)
+   if (limitMin === limitMax){
+      return limitMax
+   }
+
+
+
+   const casualNumbers = Math.floor(Math.random() * (limitMax - limitMin + 1) + limitMin)
 
    return casualNumbers;
 }
